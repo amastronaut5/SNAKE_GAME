@@ -66,6 +66,8 @@ class Snake:
             part.goto(1000,1000)
         self.snake_parts.clear()
         self.create_snake()
+        self.COLOR = self.screen.textinput(title="WELCOME TO THE SNAKE GAME !",
+                                               prompt="WHAT COLOR DO YOU WANT YOUR SNAKE TO BE ?")
         self.head = self.snake_parts[0]
 
 
